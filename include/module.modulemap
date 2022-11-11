@@ -1,4 +1,4 @@
-module ShoppingBackend {
+module RustShopping {
 	header "libshopping.h"
 	export *
 }
