@@ -1,0 +1,16 @@
+[package]
+name = "libshopping"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "libshopping"
+crate-type = [ "staticlib" ]
+
+[dependencies]
+reqwest = {version = "0.11", features = ["blocking"]}
+scraper = "0.12.0"
+tokio = {version = "1.21.2", features = ["full"]}
+swift-bridge = "0.1"
