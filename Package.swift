@@ -5,23 +5,23 @@ import PackageDescription
 import Foundation
 
 let package = Package(
-  name: "RustShopping",
+  name: "ShoppingBackend",
   platforms: [
     .iOS(*)
   ],
   products: [
     .library(
-      name: "RustShopping",
-      targets: ["RustShopping"]
+      name: "ShoppingBackend",
+      targets: ["ShoppingBackend"]
     )
   ],
   targets: [
     .target(
-      name: "RustShopping",
-      dependencies: ["RustShopping"]
+      name: "ShoppingBackend",
+      dependencies: ["ShoppingBackend"]
     )
     .binaryTarget(
-      name: "RustShopping",
+      name: "ShoppingBackend",
       url: "https://github.com/abukati/rust-swift/bundle.zip",
       checksum: "97d6eb3425c3bcab090900cce385d00113206187b98b190ba74f1b27ed4f7150"
     )
