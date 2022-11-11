@@ -23,7 +23,7 @@ let package = Package(
     .binaryTarget(
       name: "ShoppingBackend",
       url: "https://github.com/abukati/rust-swift/bundle.zip",
-      checksum: "97d6eb3425c3bcab090900cce385d00113206187b98b190ba74f1b27ed4f7150"
+      checksum: "22913f75ea6b98ab74b4757d9c0692331716050272da7731e537218d8382cc82"
     )
     // .testTarget(
     //   name: "RustShopping",
