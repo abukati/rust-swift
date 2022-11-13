@@ -1,4 +1,4 @@
-module ShoppingBackend {
+module ShopScraper {
 	header "libshopping.h"
 	export *
 }

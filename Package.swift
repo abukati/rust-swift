@@ -17,7 +17,7 @@ let package = Package(
         targets: [
             .target(
                 name: "ShoppingBackend",
-                dependencies: ["ShoppingBackend"]),
+                dependencies: ["ShopScraper"]),
             .binaryTarget(
                 name: "ShoppingBackend",
                 url: "https://github.com/abukati/rust-swift/blob/main/bundle.zip",
