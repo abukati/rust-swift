@@ -20,7 +20,7 @@ let package = Package(
                 dependencies: ["ShoppingBackend"]),
             .binaryTarget(
                 name: "ShoppingBackend",
-                url: "https://github.com/abukati/rust-swift/bundle.zip",
+                url: "https://github.com/abukati/rust-swift/blob/main/bundle.zip",
                 checksum: "22913f75ea6b98ab74b4757d9c0692331716050272da7731e537218d8382cc82"),
             .testTarget(
                 name: "ShoppingBackendTests",
